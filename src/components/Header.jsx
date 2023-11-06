@@ -9,6 +9,7 @@ const Header =() => {
         </Badge>
         </h1>
         <Button>Login</Button>
+        <Button>Sign Up</Button>
         </>
     ) 
 }
