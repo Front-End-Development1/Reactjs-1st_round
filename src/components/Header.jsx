@@ -3,13 +3,12 @@ import { Badge } from "react-bootstrap";
 const Header =() => {
     return (
         <>
-        <h1>
+        {/* <h1>
         <Badge bg="secondary" as={Button}>
           Heading Button
         </Badge>
-        </h1>
-        <Button>Login</Button>
-        <Button>Sign Up</Button>
+        </h1> */}
+  
         </>
     ) 
 }
