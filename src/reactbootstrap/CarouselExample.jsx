@@ -1,24 +1,25 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Image from "react-bootstrap/Image";
-function UncontrolledExample() {
+import ImageCarousel from './ImageCarousel'
+
+function NoTransitionExample() {
   return (
-    <Carousel>
+    <Carousel slide={false}>
       <Carousel.Item>
-      <Image src="./assets/p1.jpg" alt="image not found" />
+        <ImageCarousel />
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <Image src="./assets/p1.jpg" alt="image not found" />
+      <ImageCarousel />
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <Image src="./assets/p1.jpg" alt="image not found" />
+      <ImageCarousel />
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
@@ -30,4 +31,4 @@ function UncontrolledExample() {
   );
 }
 
-export default UncontrolledExample;
+export default NoTransitionExample;
